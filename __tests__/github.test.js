@@ -6,7 +6,7 @@ const app = require('../lib/app');
 
 jest.mock('../lib/services/github');
 
-describe('GitHub auth routes', () => {
+describe('GitHub OAuth routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
